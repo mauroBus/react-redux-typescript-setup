@@ -18,7 +18,7 @@ type OwnProps = {
 }
 type Props = StateProps & DispatchProps & OwnProps
 
-const MyModuleClass = ({ className, items, methodA, methodB }: Props) => (
+const _MyModule = ({ className, items, methodA, methodB }: Props) => (
   <div className={className}>
     <title>{t('My module')}</title>
     <Header />
@@ -36,4 +36,4 @@ const mapDispatchToProps: DispatchProps = { methodA, methodB }
 export const MyModule = connect<StateProps, DispatchProps, OwnProps, AppState>(
   mapStateToProps,
   mapDispatchToProps
-)(MyModuleClass)
+)(_MyModule)
