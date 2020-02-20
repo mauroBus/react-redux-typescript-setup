@@ -1,0 +1,32 @@
+{
+  "add_an_item_14011a6c": {
+    "message": "Add an item"
+  },
+  "article_e8bf1e84": {
+    "message": "Article"
+  },
+  "aside_a580c410": {
+    "message": "Aside"
+  },
+  "i_am_text_in_article_also_there_can_be_an_image_dab5aabb": {
+    "message": "I am text in article, also there can be an image:"
+  },
+  "link_nbr_number_441eafd4": {
+    "message": "Link { nbr, number }"
+  },
+  "my_module_a9e80678": {
+    "message": "My module"
+  },
+  "this_is_a_footer_a2516003": {
+    "message": "This is a footer."
+  },
+  "this_is_a_header_bcdcd1c6": {
+    "message": "This is a header."
+  },
+  "we_ve_had_a_slight_malfunction_46473151": {
+    "message": "We’ve had a slight malfunction"
+  },
+  "you_could_give_refreshing_your_page_a_shot_or_just_c06e6764": {
+    "message": "You could give refreshing your page a shot. Or just sit tight, and we’ll figure this out."
+  }
+}
