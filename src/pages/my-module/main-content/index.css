@@ -1,0 +1,10 @@
+@import "../../../styles/variables";
+
+.mainContent {
+  color: var(--blue-grey);
+  position: relative;
+}
+
+.article {
+  padding: 1rem;
+}
