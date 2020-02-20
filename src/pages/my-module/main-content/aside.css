@@ -1,0 +1,21 @@
+@import "../../../styles/variables";
+
+.aside {
+  border: solid var(--blue-grey);
+  float: right;
+  height: 100%;
+  width: 12rem;
+  padding: 1rem;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+.list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.link {
+  text-decoration: none;
+}
