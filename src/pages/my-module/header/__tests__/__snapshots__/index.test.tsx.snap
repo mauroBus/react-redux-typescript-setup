@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`MyModule::Header renders 1`] = `
+<header
+  className="header"
+>
+  This is a header.
+</header>
+`;
