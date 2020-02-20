@@ -1,0 +1,5 @@
+@import "../../../styles/variables";
+
+.item {
+  font-size: var(--font-medium);
+}

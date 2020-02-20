@@ -1,0 +1,43 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`MyModule::MainContent renders the second article 1`] = `
+<article
+  className="article"
+>
+  <h2>
+    Lorem ipsum
+  </h2>
+  <section>
+    <ul>
+      <Item
+        id="1"
+        key="1"
+        text="Item 1"
+      />
+      <Item
+        id="2"
+        key="2"
+        text="Item 2"
+      />
+      <Item
+        id="3"
+        key="3"
+        text="Item 3"
+      />
+      <Item
+        id="4"
+        key="4"
+        text="Item 4"
+      />
+    </ul>
+  </section>
+  <section>
+    <Button
+      data-qa="main-content-add-item-btn"
+      onClick={[Function]}
+    >
+      Add an item
+    </Button>
+  </section>
+</article>
+`;
