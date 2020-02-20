@@ -19,7 +19,7 @@
     "clean": "rimraf build",
     "eslint": "eslint . --ext .js,.ts,.tsx",
     "extractlocales": "NODE_ENV=locale format-message extract -g underscored_crc32 -o src/locales/en.json 'src/**/*.js' 'src/**/*.ts' 'src/**/*.tsx'",
-    "lint": "yarn eslint && yarn stylelint",
+    "lint": "yarn eslint && yarn stylelint && yarn tsc",
     "prebuild": "rimraf build",
     "prettier": "prettier --write \"**/*.{js,ts,tsx}\"",
     "serve": "yarn build && node ./server.js",
