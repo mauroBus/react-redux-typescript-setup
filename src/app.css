@@ -1,0 +1,38 @@
+@import "./styles/variables";
+@import "./styles/font-face.css";
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  font-family: var(--font-family);
+  font-size: 100%;
+  overflow: hidden;
+  height: 100%;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+/* Hide IE11's default clear button on form fields */
+::-ms-clear {
+  display: none;
+}
+
+button,
+input,
+select,
+textarea {
+  font: inherit;
+}
+
+.app {
+  border: none;
+  margin: auto;
+  background: url("static/my-image.jpg") center center no-repeat;
+  background-size: cover;
+  color: var(--color-text-default);
+  font-family: var(--font-family);
+  width: 73%;
+}
