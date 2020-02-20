@@ -1,0 +1,12 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Button matches snapshot 1`] = `
+<button
+  className="base default"
+  data-buc="Button"
+  onClick={[Function]}
+  onKeyDown={[Function]}
+>
+  Children
+</button>
+`;

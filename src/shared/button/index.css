@@ -1,0 +1,47 @@
+@import "../../styles/variables";
+
+.base {
+  appearance: none;
+  background: transparent;
+  border: 0.0625rem solid transparent;
+  border-radius: 3rem;
+  cursor: pointer;
+  display: inline-block;
+  font-family: inherit;
+  font-size: 0.75rem;
+  font-weight: bold;
+  letter-spacing: 0.0625rem;
+  line-height: 1rem;
+  margin: 0;
+  overflow: visible;
+  padding: 0.625rem 1.25rem 0.5rem;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+  transition: all 0.2s ease;
+
+  &:hover {
+    border-color: transparent;
+    text-decoration: none;
+  }
+
+  &[aria-disabled] {
+    cursor: not-allowed;
+    pointer-events: none;
+    opacity: 0.5;
+  }
+
+  &:active {
+    background: rgba(0, 0, 0, 0.05);
+  }
+}
+
+.default {
+  border-color: var(--color-theme);
+  color: var(--color-theme);
+
+  &:hover {
+    box-shadow: 0 0 0 0.125rem var(--color-theme);
+  }
+}
