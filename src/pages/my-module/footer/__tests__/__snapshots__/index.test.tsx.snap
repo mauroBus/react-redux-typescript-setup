@@ -1,0 +1,10 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`MyModule::Footer renders 1`] = `
+<footer
+  className="footer"
+  role="contentinfo"
+>
+  This is a footer.
+</footer>
+`;

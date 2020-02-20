@@ -1,0 +1,8 @@
+@import "../../../styles/variables";
+
+.footer {
+  background-color: var(--blue);
+  color: var(--white);
+  text-align: center;
+  padding: 1rem;
+}
